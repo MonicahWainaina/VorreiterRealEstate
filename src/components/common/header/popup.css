@@ -1,0 +1,16 @@
+.blur-background {
+    backdrop-filter: blur(5px); /* Adjust the blur amount as needed */
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the background color and opacity as needed */
+  }
+  .blur-content {
+    filter: blur(5px);
+  }
+  .blur-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(8px); /* Adjust the blur strength as needed */
+    z-index: 9999;
+  }

@@ -1,0 +1,23 @@
+.review-container{
+    padding: 1% 0;
+    padding-bottom: 5%;
+}
+#review-heading{
+    font-size: 6em;
+    margin: 5%;
+    text-align: right;
+}
+.review{
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+.review-cols{
+    width: 30%;
+    text-align: justify;
+    padding: 2%;
+    margin: auto;
+}
+.review-cols p{
+    font-size: 1.2em; 
+}

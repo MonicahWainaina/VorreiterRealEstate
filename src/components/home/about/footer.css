@@ -1,0 +1,33 @@
+footer{
+    background-color: #000000;
+    color: #dbe2eb;
+    padding: 2% 0;
+    font-size: 1.2em;
+}
+footer p{
+    color: #dbe2eb;
+}
+.socials{
+    width: 28%;
+    text-align: center;
+    margin: auto;
+    padding: 1%;
+}
+.socials img{
+    margin: 0 3%;
+    border: 2px solid #dbe2eb;
+    padding: 2%;
+    border-radius: 30px;
+}
+
+.copyright{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.copyright p{
+    height: 100%;
+    margin: 0 1%;
+    float: right;
+}
+    

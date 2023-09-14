@@ -1,0 +1,26 @@
+.services-container{
+    padding: 1% 0;
+    padding-bottom: 5%;
+    background: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 25%, #000000 75%, #000000 100%);
+}
+#services-heading{
+    font-size: 6em;
+    margin: 5%;
+    text-align: right;
+}
+.services{
+    margin: auto;
+    text-align: center;
+    width: 90%;
+    display: block;
+}
+.services-row{
+    background-color: #000000;
+    background-image: url("../../../../public/images/int3.jpg");
+    padding: 3%;
+    margin: 3% 0;
+}
+.services-row p{
+    font-size: 2.4em;
+    color: #FFFFFF;
+}

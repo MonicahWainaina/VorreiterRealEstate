@@ -1,0 +1,25 @@
+.blog-container{
+    padding: 1% 0;
+    padding-bottom: 5%;
+}
+#blog-heading{
+    font-size: 6em;
+    margin: 5%;
+}
+.blog{
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+.blog-cols{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    background-color: #FFFFFF;
+    color: #000000;
+    border: 2px solid #dbe2eb;
+}
+.blog-cols img{
+    width: 100%;
+    height: 280px;
+}

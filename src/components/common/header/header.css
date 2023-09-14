@@ -1,0 +1,185 @@
+/* header */
+header{
+    margin: 0;
+    padding: 0;
+}
+
+header img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width:100%; 
+    height: 560px;
+}
+#logo-name {
+    left: 12%;
+    font-size: 2.4em;
+    margin: 1%;
+    font-weight: bold;
+    line-height: 50%;
+}
+
+#logo-name span {
+    font-size: 0.4em;
+}
+
+.menu-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.topnav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.topnav-left {
+    float: left;
+    padding: 1% 0;
+}
+
+.topnav-left img {
+    height: 70px;
+}
+
+.topnav-right {
+  border-bottom: 2px solid silver;
+  float: right;
+  position: fixed;
+  right: 0%;
+  width: 75.2%;
+  padding: 1% 0;
+}
+
+.topnav-right a {
+  margin: 2%;
+  font-size: 1.1em;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
+.topnav-right button {
+    background-color: black;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: none;
+    padding: 1%;
+    margin-left: 8%;
+    transition: background-color 0.9s;
+}
+
+.topnav-right button:hover {
+    background-color: #6d8aad;
+    color: black;
+    transition: background-color 0.9s;
+}
+.topnav-right.colorChange a{
+    color: black;
+}
+.btn.colorChange{
+    background-color: #6d8aad;
+    color: black;
+}
+.btn.colorChange:hover{
+    background-color: black;
+    color: white;
+}
+.topnav.colorChange{
+    background-color: white;
+    height: 80px;
+    color: black;
+}
+.topnav-right.colorChange{
+    border-bottom: 2px solid black;
+}
+.topnav.colorChange{
+    border-bottom: #6d8aad;
+}
+
+header h1 {
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 7em;
+    font-weight: bold;    
+}
+.menu{
+    border: 0;
+    height: 40px;
+    width: 40px;
+    padding: 0.5rem;
+    border-radius: 50%;
+    background-color: #283b8b;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    position: absolute;
+    top: 32px;
+    right: 37px;
+    transform: translateY(-50%);
+    display: none;
+}
+.menu:hover {
+  background-color: #2642af;
+}
+@media screen and (max-width: 768px) {
+  .topnav-right{
+    display: none;
+  }
+  .topnav-left #logo-name{
+    margin-left: 38px;
+    margin-right: auto;
+  }
+  .topnav-left img{
+    margin-left: -0.6rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .menu {
+    display: block;
+    left: 275px;
+    top: 35px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .topnav-right ul {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .topnav-right  ul {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    height: calc(100vh - 77px);
+    background-color: white;
+    border-top: 1px solid black;
+  }
+  .topnav-right  a {
+    text-align: center;
+    margin: 0;
+  }
+  .topnav-right   a {
+    color: black;
+    width: 100%;
+    padding: 1.5rem 0;
+  }
+  .topnav-right  a:hover {
+    background-color: #eee;
+  }
+}
+@media screen and (max-width: 768px) {
+  .topnav-right .expanded ul {
+    display: block;
+  }
+}
